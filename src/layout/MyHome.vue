@@ -4,7 +4,7 @@
       <MyHeader />
     </el-header>
     <el-container>
-      <el-aside :width="`${isCollapse ? '80px' : '120px'}`">
+      <el-aside :width="`${isCollapse ? '80px' : '150px'}`">
         <MyAside />
       </el-aside>
       <el-main>

@@ -15,4 +15,7 @@ export const mix = (color1: string, color2: string, weight: number) => {
   return `#${rStr}${gStr}${bStr}`
 }
 
-export default {}
+// 检测是否为外链
+export const isExternal = (path: string) => {
+  return /^(https?:|mailto:|tel:)/.test(path)
+}
